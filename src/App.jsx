@@ -19,7 +19,7 @@ function App() {
       setLoading(true);
       setError(null);
 
-      fetch(`/${level}.json`)
+      fetch(`${import.meta.env.BASE_URL}${level}.json`)
         .then(res => {
           if (!res.ok) throw new Error('Failed to load words');
           return res.json();
