@@ -1,0 +1,265 @@
+.flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.flashcard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+.progress-info {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+}
+
+.mute-button {
+    padding: 0.6rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 0.2s ease;
+}
+
+.mute-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.flashcard-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1;
+    width: 100%;
+    max-width: 700px;
+}
+
+.nav-arrow {
+    padding: 1rem 1.2rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.nav-arrow:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.1);
+}
+
+.flashcard {
+    perspective: 1000px;
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.flashcard-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    height: 100%;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85));
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.quiz-content-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flashcard-back {
+    transform: rotateY(180deg);
+    overflow-y: auto;
+}
+
+.quiz-type-badge {
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #66b2b2, #4a9999);
+    color: white;
+}
+
+.quiz-artikel {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.3rem 0.8rem;
+    border-radius: 10px;
+    border: 3px solid;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.5rem;
+}
+
+.quiz-word {
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+    font-family: 'Courier New', monospace;
+}
+
+.quiz-example {
+    background: rgba(102, 178, 178, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.quiz-example .example-label {
+    display: block;
+    font-size: 0.8rem;
+    color: #718096;
+    margin-bottom: 0.3rem;
+}
+
+.quiz-example .example-text {
+    font-size: 1rem;
+    color: #4a5568;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.quiz-instruction {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    animation: pulse 2s infinite;
+    margin-top: auto;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.nav-button {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.nav-button-primary {
+    background: linear-gradient(135deg, #63b689, #4a9d70);
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(99, 182, 137, 0.4);
+}
+
+.nav-button-primary:hover {
+    box-shadow: 0 6px 20px rgba(99, 182, 137, 0.5);
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .flashcard {
+        max-width: 320px;
+        height: 420px;
+    }
+
+    .quiz-word {
+        letter-spacing: 2px;
+    }
+
+    .nav-arrow {
+        padding: 0.8rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .nav-button {
+        width: 100%;
+        text-align: center;
+    }
+}

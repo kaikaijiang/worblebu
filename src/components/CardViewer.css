@@ -1,0 +1,130 @@
+.card-viewer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.card-viewer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+.mute-button {
+    padding: 0.6rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 0.2s ease;
+}
+
+.mute-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.card-viewer-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Flashcard styles for Learn Words mode */
+.learn-flashcard {
+    perspective: 1000px;
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.learn-flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+.learn-flashcard.flipped .learn-flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.learn-flashcard-front,
+.learn-flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.learn-flashcard-back {
+    transform: rotateY(180deg);
+    overflow-y: auto;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.nav-button {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.nav-button-primary {
+    background: linear-gradient(135deg, #63b689, #4a9d70);
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(99, 182, 137, 0.4);
+}
+
+.nav-button-primary:hover {
+    box-shadow: 0 6px 20px rgba(99, 182, 137, 0.5);
+}
+
+@media (max-width: 600px) {
+    .learn-flashcard {
+        max-width: 320px;
+        height: 400px;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .nav-button {
+        width: 100%;
+        text-align: center;
+    }
+}

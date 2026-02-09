@@ -1,0 +1,771 @@
+{
+  "schäumen": {
+    "cn": "发泡",
+    "type": "verb",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "action",
+      "neutral"
+    ],
+    "example": "Die Seife im Badewasser schäumt stark",
+    "grammar": {
+      "stark": false,
+      "prasens": "schäumt",
+      "prateritum": "schäumte",
+      "perfekt": "hat geschäumt"
+    }
+  },
+  "Bräutigam": {
+    "cn": "新郎",
+    "type": "norm",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "person",
+      "wedding",
+      "masculine"
+    ],
+    "example": "Der Bräutigam wartet am Altar auf die Braut.",
+    "grammar": {
+      "article": "der",
+      "plural": "Bräutigame"
+    }
+  },
+  "Fahrzeug": {
+    "cn": "车辆",
+    "type": "norm",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "transport",
+      "neutral"
+    ],
+    "example": "Das Fahrzeug ist beschädigt.",
+    "grammar": {
+      "article": "das",
+      "plural": "Fahrzeuge"
+    }
+  },
+  "Feuer": {
+    "cn": "火",
+    "type": "norm",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "element",
+      "danger",
+      "neutral"
+    ],
+    "example": "Das Feuer wärmt das Zimmer.",
+    "grammar": {
+      "article": "das",
+      "plural": "Feuer"
+    }
+  },
+  "läuten": {
+    "cn": "鸣响 / 敲钟",
+    "type": "verb",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "sound",
+      "regular"
+    ],
+    "example": "Die Kirchenglocken läuten jeden Sonntag.",
+    "grammar": {
+      "stark": false,
+      "prasens": "läutet",
+      "prateritum": "läutete",
+      "perfekt": "hat geläutet"
+    }
+  },
+  "Gebäude": {
+    "cn": "建筑物",
+    "type": "norm",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "architecture",
+      "neutral"
+    ],
+    "example": "Dieses Gebäude ist sehr modern.",
+    "grammar": {
+      "article": "das",
+      "plural": "Gebäude"
+    }
+  },
+  "leuchten": {
+    "cn": "发光 / 照亮",
+    "type": "verb",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "light",
+      "regular"
+    ],
+    "example": "Die Sterne leuchten hell am Himmel.",
+    "grammar": {
+      "stark": false,
+      "prasens": "leuchtet",
+      "prateritum": "leuchtete",
+      "perfekt": "hat geleuchtet"
+    }
+  },
+  "neu": {
+    "cn": "新的",
+    "type": "adjektive",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "quality",
+      "time"
+    ],
+    "example": "Ich habe ein neues Fahrrad.",
+    "grammar": {
+      "comparative": "neuer",
+      "superlative": "am neusten"
+    }
+  },
+  "häufig": {
+    "cn": "频繁的",
+    "type": "adjektive",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "frequency",
+      "time"
+    ],
+    "example": "Das passiert häufig in dieser Region.",
+    "grammar": {
+      "comparative": "häufiger",
+      "superlative": "am häufigsten"
+    }
+  },
+  "feucht": {
+    "cn": "潮湿的",
+    "type": "adjektive",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "condition",
+      "weather"
+    ],
+    "example": "Das Handtuch ist noch feucht.",
+    "grammar": {
+      "comparative": "feuchter",
+      "superlative": "am feuchtesten"
+    }
+  },
+  "träumen": {
+    "cn": "做梦 / 梦想",
+    "type": "verb",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "sleep",
+      "mental",
+      "regular"
+    ],
+    "example": "Er träumt von einem großen Haus.",
+    "grammar": {
+      "stark": false,
+      "prasens": "träumt",
+      "prateritum": "träumte",
+      "perfekt": "hat geträumt"
+    }
+  },
+  "heulen": {
+    "cn": "嚎叫 / 大哭",
+    "type": "verb",
+    "level": "A",
+    "attention": "eu oder äu",
+    "tags": [
+      "sound",
+      "emotion",
+      "regular"
+    ],
+    "example": "Der Wolf heult den Mond an.",
+    "grammar": {
+      "stark": false,
+      "prasens": "heult",
+      "prateritum": "heulte",
+      "perfekt": "hat geheult"
+    }
+  },
+  "sieben": {
+    "cn": "七",
+    "type": "anderen",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "number",
+      "math"
+    ],
+    "example": "Die Woche hat sieben Tage.",
+    "grammar": {}
+  },
+  "Klavier": {
+    "cn": "钢琴",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "music",
+      "instrument",
+      "neutral"
+    ],
+    "example": "Sie spielt seit Jahren Klavier.",
+    "grammar": {
+      "article": "das",
+      "plural": "Klaviere"
+    }
+  },
+  "lieben": {
+    "cn": "爱",
+    "type": "verb",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "emotion",
+      "regular"
+    ],
+    "example": "Die Eltern lieben ihre Kinder.",
+    "grammar": {
+      "stark": false,
+      "prasens": "liebt",
+      "prateritum": "liebte",
+      "perfekt": "hat geliebt"
+    }
+  },
+  "ziehen": {
+    "cn": "拉 / 搬家",
+    "type": "verb",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "action",
+      "movement",
+      "irregular"
+    ],
+    "example": "Wir ziehen bald in eine neue Wohnung.",
+    "grammar": {
+      "stark": true,
+      "prasens": "zieht",
+      "prateritum": "zog",
+      "perfekt": "ist gezogen"
+    }
+  },
+  "viel": {
+    "cn": "多",
+    "type": "pronomen",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "quantity",
+      "indefinite"
+    ],
+    "example": "Ich habe heute viel zu tun.",
+    "grammar": {}
+  },
+  "Lied": {
+    "cn": "歌曲",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "music",
+      "neutral"
+    ],
+    "example": "Das ist mein Lieblingslied.",
+    "grammar": {
+      "article": "das",
+      "plural": "Lieder"
+    }
+  },
+  "Beispiel": {
+    "cn": "例子",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "concept",
+      "neutral"
+    ],
+    "example": "Zum Beispiel mag ich Äpfel.",
+    "grammar": {
+      "article": "das",
+      "plural": "Beispiele"
+    }
+  },
+  "hier": {
+    "cn": "这里",
+    "type": "adverb",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "location",
+      "place"
+    ],
+    "example": "Wir sind jetzt hier.",
+    "grammar": {}
+  },
+  "riechen": {
+    "cn": "闻 / 散发气味",
+    "type": "verb",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "sense",
+      "irregular"
+    ],
+    "example": "Die Blumen riechen wunderbar.",
+    "grammar": {
+      "stark": true,
+      "prasens": "riecht",
+      "prateritum": "roch",
+      "perfekt": "hat gerochen"
+    }
+  },
+  "fotografieren": {
+    "cn": "拍照",
+    "type": "verb",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "activity",
+      "hobby",
+      "regular"
+    ],
+    "example": "Er fotografiert gerne Landschaften.",
+    "grammar": {
+      "stark": false,
+      "prasens": "fotografiert",
+      "prateritum": "fotografierte",
+      "perfekt": "hat fotografiert"
+    }
+  },
+  "Sieb": {
+    "cn": "筛子",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "tool",
+      "kitchen",
+      "neutral"
+    ],
+    "example": "Gieß die Nudeln in das Sieb.",
+    "grammar": {
+      "article": "das",
+      "plural": "Siebe"
+    }
+  },
+  "Ziege": {
+    "cn": "山羊",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "animal",
+      "farm",
+      "feminine"
+    ],
+    "example": "Die Ziege klettert auf den Berg.",
+    "grammar": {
+      "article": "die",
+      "plural": "Ziegen"
+    }
+  },
+  "Biber": {
+    "cn": "海狸",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "animal",
+      "wild",
+      "masculine"
+    ],
+    "example": "Der Biber nagt an einem Baum.",
+    "grammar": {
+      "article": "der",
+      "plural": "Biber"
+    }
+  },
+  "Tiger": {
+    "cn": "老虎",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "animal",
+      "wild",
+      "masculine"
+    ],
+    "example": "Der Tiger ist eine große Katze.",
+    "grammar": {
+      "article": "der",
+      "plural": "Tiger"
+    }
+  },
+  "Maschine": {
+    "cn": "机器",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "technology",
+      "tool",
+      "feminine"
+    ],
+    "example": "Die Maschine produziert Autoteile.",
+    "grammar": {
+      "article": "die",
+      "plural": "Maschinen"
+    }
+  },
+  "Krokodil": {
+    "cn": "鳄鱼",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "animal",
+      "reptile",
+      "neutral"
+    ],
+    "example": "Das Krokodil lebt im Fluss.",
+    "grammar": {
+      "article": "das",
+      "plural": "Krokodile"
+    }
+  },
+  "Familie": {
+    "cn": "家庭",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "people",
+      "society",
+      "feminine"
+    ],
+    "example": "Meine Familie wohnt in Berlin.",
+    "grammar": {
+      "article": "die",
+      "plural": "Familien"
+    }
+  },
+  "Medizin": {
+    "cn": "药物 / 医学",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "health",
+      "science",
+      "feminine"
+    ],
+    "example": "Du musst deine Medizin nehmen.",
+    "grammar": {
+      "article": "die",
+      "plural": "Medizinen"
+    }
+  },
+  "Termin": {
+    "cn": "预约 / 日期",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "time",
+      "business",
+      "masculine"
+    ],
+    "example": "Ich habe einen Termin beim Zahnarzt.",
+    "grammar": {
+      "article": "der",
+      "plural": "Termine"
+    }
+  },
+  "Nilpferd": {
+    "cn": "河马",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "animal",
+      "wild",
+      "neutral"
+    ],
+    "example": "Das Nilpferd verbringt viel Zeit im Wasser.",
+    "grammar": {
+      "article": "das",
+      "plural": "Nilpferde"
+    }
+  },
+  "Benzin": {
+    "cn": "汽油",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "fuel",
+      "energy",
+      "neutral"
+    ],
+    "example": "Das Auto hat kein Benzin mehr.",
+    "grammar": {
+      "article": "das",
+      "plural": "Benzine"
+    }
+  },
+  "Mandarine": {
+    "cn": "橘子",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "fruit",
+      "food",
+      "feminine"
+    ],
+    "example": "Im Winter esse ich gerne Mandarinen.",
+    "grammar": {
+      "article": "die",
+      "plural": "Mandarinen"
+    }
+  },
+  "Ruine": {
+    "cn": "废墟",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "building",
+      "history",
+      "feminine"
+    ],
+    "example": "Die Burg ist heute nur noch eine Ruine.",
+    "grammar": {
+      "article": "die",
+      "plural": "Ruinen"
+    }
+  },
+  "Vitamine": {
+    "cn": "维生素",
+    "type": "norm",
+    "level": "A",
+    "attention": "i oder ie",
+    "tags": [
+      "health",
+      "food",
+      "plural"
+    ],
+    "example": "Äpfel haben viele Vitamine.",
+    "grammar": {
+      "article": "die",
+      "plural": "Vitamine"
+    }
+  },
+  "Teddy": {
+    "cn": "泰迪熊",
+    "type": "norm",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "toy",
+      "childhood",
+      "masculine"
+    ],
+    "example": "Das Kind schläft mit seinem Teddy.",
+    "grammar": {
+      "article": "der",
+      "plural": "Teddys"
+    }
+  },
+  "Bagger": {
+    "cn": "挖掘机",
+    "type": "norm",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "machine",
+      "construction",
+      "masculine"
+    ],
+    "example": "Der Bagger lädt Erde auf den LKW.",
+    "grammar": {
+      "article": "der",
+      "plural": "Bagger"
+    }
+  },
+  "essen": {
+    "cn": "吃",
+    "type": "verb",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "food",
+      "action",
+      "irregular"
+    ],
+    "example": "Wir essen heute Abend Pizza.",
+    "grammar": {
+      "stark": true,
+      "prasens": "isst",
+      "prateritum": "aß",
+      "perfekt": "hat gegessen"
+    }
+  },
+  "nass": {
+    "cn": "湿的",
+    "type": "adjektive",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "condition",
+      "water"
+    ],
+    "example": "Es regnet und die Straße ist nass.",
+    "grammar": {
+      "comparative": "nasser",
+      "superlative": "am nassesten"
+    }
+  },
+  "Schiff": {
+    "cn": "船",
+    "type": "norm",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "transport",
+      "water",
+      "neutral"
+    ],
+    "example": "Das Schiff fährt in den Hafen ein.",
+    "grammar": {
+      "article": "das",
+      "plural": "Schiffe"
+    }
+  },
+  "Löffel": {
+    "cn": "勺子",
+    "type": "norm",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "kitchen",
+      "tool",
+      "masculine"
+    ],
+    "example": "Für die Suppe brauche ich einen Löffel.",
+    "grammar": {
+      "article": "der",
+      "plural": "Löffel"
+    }
+  },
+  "offen": {
+    "cn": "开着的 / 开放的",
+    "type": "adjektive",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "state",
+      "access"
+    ],
+    "example": "Die Tür steht offen.",
+    "grammar": {
+      "comparative": "offener",
+      "superlative": "am offensten"
+    }
+  },
+  "Ofen": {
+    "cn": "炉子 / 烤箱",
+    "type": "norm",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "kitchen",
+      "appliance",
+      "masculine"
+    ],
+    "example": "Mach bitte den Ofen an.",
+    "grammar": {
+      "article": "der",
+      "plural": "Öfen"
+    }
+  },
+  "kommen": {
+    "cn": "来",
+    "type": "verb",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "movement",
+      "irregular"
+    ],
+    "example": "Er kommt aus Deutschland.",
+    "grammar": {
+      "stark": true,
+      "prasens": "kommt",
+      "prateritum": "kam",
+      "perfekt": "ist gekommen"
+    }
+  },
+  "gewinnen": {
+    "cn": "赢",
+    "type": "verb",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "competition",
+      "success",
+      "irregular"
+    ],
+    "example": "Sie will das Spiel gewinnen.",
+    "grammar": {
+      "stark": true,
+      "prasens": "gewinnt",
+      "prateritum": "gewann",
+      "perfekt": "hat gewonnen"
+    }
+  },
+  "kämmen": {
+    "cn": "梳头",
+    "type": "verb",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "hygiene",
+      "action",
+      "regular"
+    ],
+    "example": "Er muss sich die Haare kämmen.",
+    "grammar": {
+      "stark": false,
+      "prasens": "kämmt",
+      "prateritum": "kämmte",
+      "perfekt": "hat gekämmt"
+    }
+  },
+  "müssen": {
+    "cn": "必须",
+    "type": "verb",
+    "level": "A",
+    "attention": "Doppelkonsonanten",
+    "tags": [
+      "modal",
+      "obligation",
+      "irregular"
+    ],
+    "example": "Wir müssen jetzt lernen.",
+    "grammar": {
+      "stark": true,
+      "prasens": "muss",
+      "prateritum": "musste",
+      "perfekt": "hat gemusst"
+    }
+  }
+}
