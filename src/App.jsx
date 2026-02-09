@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Home from './components/Home';
 import LevelSelector from './components/LevelSelector';
 import CardViewer from './components/CardViewer';
@@ -12,6 +13,17 @@ function App() {
   const [words, setWords] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+
+  // Dynamic title
+  const getPageTitle = () => {
+    let title = 'Worblebu - German Vocabulary';
+    if (level) {
+      title = `${level} - Worblebu`;
+      if (mode === 'learn') title = `Learn ${level} - Worblebu`;
+      if (mode === 'practice') title = `Practice ${level} - Worblebu`;
+    }
+    return title;
+  };
 
   // Load words when level is selected
   useEffect(() => {
@@ -91,6 +103,10 @@ function App() {
 
   return (
     <div className="app">
+      <Helmet>
+        <title>{getPageTitle()}</title>
+      </Helmet>
+
       {screen === 'home' && (
         <Home onSelectMode={handleSelectMode} />
       )}
